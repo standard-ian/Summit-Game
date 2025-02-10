@@ -1,0 +1,50 @@
+How can you pass by value but still change the original?,Reference parameter
+Which container grows dynamically while guaranteeing contiguous memory?,std::vector
+What feature lets you access private members from outside a class?,friend function
+What happens to derived class data when passing without virtual?,Object slicing
+What type of member exists from birth but persists beyond instance death?,static member
+Which reference type reduces copying as movement increases?,rvalue reference
+Which smart pointer provides unique ownership but shared access?,shared_ptr
+Which constructor creates new life from a dying object?,move constructor
+What forces derived classes to implement a base class function?,pure virtual function
+How can you deduce a return type from an expression without templates?,decltype
+How do you explicitly prevent copying of a class?,copy constructor = delete
+What unnamed feature can capture its surrounding context?,lambda expression
+How can a member function be constant yet modify non-constant objects?,const member function
+What memory feature aligns data but increases size?,structure padding
+Which keyword ensures you're actually overriding a virtual function?,override specifier
+How can you construct an object at a specific memory address?,placement new
+What preprocessor directive ensures single inclusion efficiently?,pragma once
+How can you create a specific implementation for a template type?,template specialization
+Which specifier guarantees no exceptions will be thrown?,noexcept
+How can you inherit publicly while keeping parents inaccessible?,private inheritance
+Which standard container might not store its elements as bools?,vector<bool>
+How can a constructor call another constructor of the same class?,delegating constructor
+What combination allows volatile reads of unchangeable data?,const volatile
+Which inheritance type exposes all base class members?,public inheritance
+What preserves value categories during perfect forwarding?,std::forward
+Which constructor prevents implicit type conversions?,explicit constructor
+What initialization fills members without explicit constructor calls?,aggregate initialization
+What class feature can extend the life of temporary objects?,reference member
+How can you use a type before defining it completely?,forward declaration
+Which operator defines types based on expressions?,decltype
+What prevents further derived classes from overriding a virtual function?,final override
+What enum type prevents implicit conversion to integers?,enum class
+How do you initialize base classes before the derived constructor body?,constructor initializer list
+What struct attribute forces minimal memory padding?,packed struct
+What technique returns *this to enable operation chaining?,method chaining
+Which functions can execute at compile time without being constants?,constexpr function
+What type of variable can have multiple definitions across translation units?,inline variable
+Which feature transfers resources while leaving sources empty but valid?,move semantics
+Which keyword deduces types from initializing expressions?,auto keyword
+Which smart pointer enforces exclusive ownership?,unique_ptr
+What feature lets you reduce parameter packs recursively?,parameter pack expansion
+What classic technique prevents multiple header inclusion?,include guard
+Which specifier allows modification of const class members?,mutable member
+Which vector operation constructs elements in-place?,emplace_back
+What type provides thread-safe access without explicit locks?,atomic<T>
+What views memory without copying it?,string_view
+What class property allows memberwise copying with memcpy?,trivially copyable
+Which function allocates memory with specific alignment requirements?,aligned_alloc
+Which cast provides runtime type safety at a performance cost?,dynamic_cast
+Which sorting algorithm maintains relative order of equal elements?,stable_sort
