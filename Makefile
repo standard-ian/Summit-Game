@@ -10,7 +10,7 @@ FLAGS = -Wall $(STANDARD) $(DEBUG) $(DEFINES) $(WERROR)
 SOURCES = *.cpp
 #OBJECTS = *.o
 
-PROG1 = program2
+PROG1 = summit
 
 PROGS = $(PROG1) $(PROG2) $(PROG3)
 
